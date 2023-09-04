@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+    .centered {
+      text-align: center;
+      margin: 0 auto;
+      width: 50%;
+      /* You can adjust this value as needed */
+    }
+  </style>
+
+  <title>Tables</title>
+</head>
+<body
+  BACKGROUND="img.jpg"
+  BGCOLOR="browngreen "
+  TEXT="#000066"
+  LINK="#0000"
+  VLINK="#0000"
+  ALINK="#99999">
+
+  <!-- Creating HTML tables -->
+  <!-- Table 1 -->
+
+  <div class="centered">
+
+
+    <table id="moath" border="6" style="width:70%" cellpadding="10" BACKGROUND="1.gif">
+      <caption>WEB LANGUAGES</caption>
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th colspan="2">Course and Major</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mohammed</td>
+          <td>IT</td>
+          <td>HTML</td>
+        </tr>
+        <tr>
+          <td>Taha</td>
+          <td>IS</td>
+          <td>CSS</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Ali</td>
+          <td>Cs</td>
+          <td>Java</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+
+    <!-- Table 2 -->
+    <table border="4" cellspacing="10" width="80%" height="100%">
+      <thead>
+        <tr>
+          <th>University</th>
+          <td BGCOLOR=green>Sanaa</td>
+        </tr>
+        <th rowspan="2">Faculties</th>
+        <td align="right" valign="bottom">Computer and Information Technology</td>
+        <tr>
+          <td align="" valign="bottom">Languages</td>
+        </tr>
+      </thead>
+    </table>
+    <hr /><br />
+
+    <!-- Commented Section 9: Nested HTML Tables -->
+    <!-- Creating nested HTML tables -->
+    <h1>Nested Table</h1>
+
+
+    <table border="10" id="nested">
+      <tr>
+        <td align="middle">Row 1, Column 1</td>
+        <td>
+          <table border="10">
+            <tr>
+              <td BGCOLOR="whiteblue">Row 2, Column 1</td>
+              <td BGCOLOR="redgreen">Row 2, Column 2</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="10">
+            <tr>
+              <td BGCOLOR="balckred">Row 3, Column 1</td>
+              <td BGCOLOR="red">Row 3, Column 2</td>
+            </tr>
+          </table>
+          <td align="middle">Row 1, Column 2</td>
+        </tr>
+      </table>
+
+
+
+
+    </div>
+
+
+  </body>
+</html>
